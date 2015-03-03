@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff9eff45"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="87dp"
+        android:layout_height="10dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Tire"
+        android:id="@+id/tire"
+        android:background="#ffffffff"
+        android:textColorHighlight="#ffff3744"
+        android:textSize="30dp"
+        android:textColor="#ffe352ff"
+        android:layout_weight="0.09"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>
